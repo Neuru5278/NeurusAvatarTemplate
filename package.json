@@ -1,0 +1,8 @@
+{
+	"name" : "com.neuru.template.nat",
+	"displayName" : "NAT 0.3.1",
+	"description" : "Neuru's Avatar Template",
+	"version" : "0.3.1",
+	"category" : "ProjectTemplate",
+	"dependencies" : {}
+}

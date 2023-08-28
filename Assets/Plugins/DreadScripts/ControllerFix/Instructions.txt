@@ -1,0 +1,22 @@
+Made by Dreadrith#3238
+
+Controller Fix is made to apply several edits to controllers and animation clips that serve to fix or mitigate obscure issues.
+Found under DreadTools > Utilities > Controller Fix
+
+This script applies a patch using 0Harmony, which runs a fix on the statemachine being edited when pasting or duplicated assets to fix HideFlags and allow them to appear in the inpector.
+
+Window Settings
+---------------
+
+Target:	Could be an Animator Controller or a VRCAvatarDescriptor. If it's an Avatar, applies the fix to all the Animator Controllers that exist in the Descriptor as well as sub-animator controllers.
+
+Buffer Clip: If 'Add Buffer' is on, Fills states with no motion with this Animation Clip.
+
+Add Buffer: Fills states with no motion with the set Buffer Clip.
+Auto Loop Time: Sets loop time off on clips that are flagged constant*.
+Auto Two Frame: Makes animation clips with only one start frame have two frames instead.
+Auto Transition: Sets 'Can Transition To Self' Off on Any State transitions to states with clips or blendtrees that are flagged constant*.
+Auto Flag: Fix for Unity 2019 Controllers. Unhides pasted or duplicated objects from the inspector. 
+
+'Constant' Clip: An Animation has a constant value throughout the animation clip in all of its properties.
+'Constant' BlendTree: A BlendTree whose child motions are all flagged as constant.

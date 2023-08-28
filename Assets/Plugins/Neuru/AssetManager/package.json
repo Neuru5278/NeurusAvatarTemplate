@@ -1,0 +1,23 @@
+{
+  "name": "com.neuru.assetmanager",
+  "displayName": "Asset Manager",
+  "version": "1.0.0",
+  "unity": "2019.4",
+  "description": "Reorganizes or copies Prefab, Scene or Folder's dependency assets into their own sorted folders",
+  "keywords": [
+    "VRChat",
+	"Tool",
+  ],
+  "author": {
+    "name": "Neuru5278"
+    "email": "neuru5278@gmail.com",
+    "url": "https://linktr.ee/Dreadrith"
+  },
+  "legacyFolders": {
+    "Assets\\Neuru/AssetManager": "ba0b183dfc486744db944b83bf2d1ed8"
+  },
+  "legacyFiles": {
+    "Assets\\Neuru/AssetManager/Editor/AssetManager.cs": "ef5472852a91c5347b3601072b44a6b8"
+  },
+  "url" : "https://github.com/Neuru5278/AssetManager.git#1.0.0"
+}
