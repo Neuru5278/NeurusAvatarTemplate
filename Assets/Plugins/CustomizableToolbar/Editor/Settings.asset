@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957cf821b97e0f5438c9f3a087349e1c, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  m_list:
+  - m_commandName: Window/_lil/AvatarUtils
+    m_buttonName: AvatarUtils
+    m_image: {fileID: 0}
+    m_width: 75
+  - m_commandName: Tools/Modular Avatar/LightLimitChanger
+    m_buttonName: Light Setup
+    m_image: {fileID: 0}
+    m_width: 75
+  - m_commandName: Dummy
+    m_buttonName: '||'
+    m_image: {fileID: 0}
+    m_width: 15
+  - m_commandName: GameObject/ModularAvatar/Setup Outfit
+    m_buttonName: MA Setup
+    m_image: {fileID: 0}
+    m_width: 70
+  - m_commandName: Tools/Apply on Play/Manual Bake Avatar
+    m_buttonName: Bake MA/AO
+    m_image: {fileID: 0}
+    m_width: 85
+  - m_commandName: CONTEXT/MA
+    m_buttonName: MA
+    m_image: {fileID: 0}
+    m_width: 32
+  - m_commandName: CONTEXT/AO
+    m_buttonName: AO
+    m_image: {fileID: 0}
+    m_width: 32
+  - m_commandName: Dummy
+    m_buttonName: '||'
+    m_image: {fileID: 0}
+    m_width: 15
+  - m_commandName: Component/Scripts/VRC.SDK3.Avatars.Components/VRC Avatar Descriptor
+    m_buttonName: Descriptor
+    m_image: {fileID: 0}
+    m_width: 75
+  - m_commandName: Component/Scripts/VF.Model/VRC Fury
+    m_buttonName: VRC Fury
+    m_image: {fileID: 0}
+    m_width: 70
+  - m_commandName: Component/Scripts/D 4rk Avatar Optimizer
+    m_buttonName: D4rk Optimizer
+    m_image: {fileID: 0}
+    m_width: 100
+  - m_commandName: Dummy
+    m_buttonName: '||'
+    m_image: {fileID: 0}
+    m_width: 15
+  - m_commandName: Tools/Gesture Manager Emulator
+    m_buttonName: Gesture Manager
+    m_image: {fileID: 0}
+    m_width: 108
+  - m_commandName: Tools/Avatars 3.0 Emulator/Enable
+    m_buttonName: Av3 Emulator
+    m_image: {fileID: 0}
+    m_width: 85

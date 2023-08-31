@@ -1,0 +1,29 @@
+{
+  "name": "com.dreadrith.packageprocessor",
+  "displayName": "DreadTools - Package Processor",
+  "version": "1.0.0",
+  "unity": "2019.4",
+  "description": "Removes the mundane and repetitive things you have to do when exporting or importing packages",
+  "keywords": [
+    "Dreadrith",
+    "DreadScripts",
+    "DreadTools",
+    "VRChat",
+    "Export",
+    "PostProcessor"
+  ],
+  "author": {
+    "name": "Dreadrith",
+    "email": "dreadscripts@gmail.com",
+    "url": "https://linktr.ee/Dreadrith"
+  },
+  "legacyFolders": {
+    "Assets\\DreadScripts/exportpostprocessor": "5dadb9d429ea0f34a87b417280bbd58e"
+  },
+  "legacyFiles": {
+    "Assets\\DreadScripts/exportpostprocessor/Editor/exportpostprocessor.cs": "",
+    "Assets\\DreadScripts/exportpostprocessor/Editor/exportpostprocessordata.cs": "",
+    "Assets\\DreadScripts/exportpostprocessor/Editor/exportpostprocessorwindow.cs": ""
+  },
+  "url" : "https://github.com/dreadrith/com.dreadrith.packageprocessor.git#1.0.0"
+}
